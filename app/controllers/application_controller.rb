@@ -12,3 +12,7 @@ end
 
 
 
+# Controller
+#     |
+#   Action -> Do something with Database -> put results into view
+#          -> render view

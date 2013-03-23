@@ -1,10 +1,5 @@
 class HelloController < ApplicationController
-  def there
-    @message = make_message()
-    render :action => 'there'
-  end
-
-  def make_message
-    return "woo"  
+  def show
+    @attendee = Attendee.find(params[:id])
   end
 end

@@ -1,6 +1,6 @@
 Scratch::Application.routes.draw do
-  match 'hello' => 'hello#there'
-  # /hello => controller "hello" and the action "there"
+  match 'hello/:id' => 'hello#show'
+  # /hello => controller "hello" and the action "show"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
